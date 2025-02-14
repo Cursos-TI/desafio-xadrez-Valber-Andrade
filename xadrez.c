@@ -6,15 +6,14 @@ int main() {
 
     printf("O Bispo está se movendo na direção:\n"); //Printf para ilustrar a movimentação do Bispo
 
-    while (bispo < 5)
+    while (bispo < 5)//enquanto o bispo for menor que 5
     {
-        printf("Cima, "); printf("Direita.\n");
-        bispo++;
+        printf("Cima, "); printf("Direita.\n");//imprime as direções que ele vai andar
+        bispo++; //bispo mais mais, para incremento nas casas
     }
     
-
-    // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+    do
+    
 
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
