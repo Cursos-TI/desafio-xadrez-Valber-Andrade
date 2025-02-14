@@ -2,49 +2,38 @@
 
 int main() {
     //Adicionando as variaveis de incremento
-    int bispo = 0; 
-    int torre = 0;
-    int rainha = 0;
+    int bispo = 1; 
+    int torre = 1;
+    int rainha = 1;
 
+    //Usando while para movimentar o Bispo
     printf("O Bispo está se movendo na direção: \n"); //Printf para ilustrar a movimentação do Bispo
 
-    while (bispo < 5)//enquanto o bispo for menor que 5
+    while (bispo <= 5)//enquanto o bispo for menor que 5
     {
-        printf("Cima, "); printf("Direita.\n");//imprime as direções que ele vai andar
+        printf("O Bispo está movendo %d casa para Cima, Direita.\n", bispo);//imprime as direções que ele vai andar
         bispo++; //bispo mais mais, para incremento nas casas
     
     }
 
     
-    
-    printf("A Torre está se movendo na direção: \n"); //Printf para ilustrar a movimentação da Torre
+    //Usando do-while para movimentar a Torre
+    printf("\nA Torre está se movendo na direção: \n"); //Printf para ilustrar a movimentação da Torre
 
     do //Ira fazer o printf, enquanto o valor de torre for menor que 5
     {
-        printf("Direita.\n");//imprime as direções que ela vai andar
+        printf("A Torre está movendo %d casa para a Direita.\n", torre);//imprime as direções que ela vai andar
         torre++; //torre mais mais, para incremento nas casas
 
-    } while (torre < 5);
+    } while (torre <= 5);
 
+    //Usando for para movimentar a Rainha
+    printf("\nA Rainha está se movendo na direção: \n"); //Printf para ilustrar a movimentação da Rainha
 
-    printf("A Rainha está se movendo na direção: \n"); //Printf para ilustrar a movimentação da Rainha
-
-    for (rainha = 0; rainha < 8; rainha++)//rainha igual a 0, enquanto a rainha andar menos que 8 casas, rainha++
+    for (rainha = 1; rainha <= 8; rainha++)//rainha igual a 0, enquanto a rainha andar menos que 8 casas, rainha++
     {
-        printf("Esquerda.\n");//imprime as direções que ela vai andar
+        printf("A Rainha está movendo %d casa para a Esquerda.\n", rainha);//imprime as direções que ela vai andar
     }
-    
-    
-
-
-    
-
-
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
-
-    // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
 
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
