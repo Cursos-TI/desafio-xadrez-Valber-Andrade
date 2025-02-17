@@ -11,7 +11,7 @@ int main() {
 
     while (bispo <= 5)//enquanto o bispo for menor que 5
     {
-        printf("O Bispo está movendo %d casa para Cima, Direita.\n", bispo);//imprime as direções que ele vai andar
+        printf("Cima, Direita.\n");//imprime as direções que ele vai andar
         bispo++; //bispo mais mais, para incremento nas casas
     
     }
@@ -22,7 +22,7 @@ int main() {
 
     do //Ira fazer o printf, enquanto o valor de torre for menor que 5
     {
-        printf("A Torre está movendo %d casa para a Direita.\n", torre);//imprime as direções que ela vai andar
+        printf("Direita.\n");//imprime as direções que ela vai andar
         torre++; //torre mais mais, para incremento nas casas
 
     } while (torre <= 5);
@@ -32,7 +32,7 @@ int main() {
 
     for (rainha = 1; rainha <= 8; rainha++)//rainha igual a 0, enquanto a rainha andar menos que 8 casas, rainha++
     {
-        printf("A Rainha está movendo %d casa para a Esquerda.\n", rainha);//imprime as direções que ela vai andar
+        printf("Esquerda.\n");//imprime as direções que ela vai andar
     }
 
     // Nível Aventureiro - Movimentação do Cavalo
